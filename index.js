@@ -29,6 +29,6 @@ app.listen(PORT, ()=>{
     console.log(`server started and running at ${PORT}`);
 });
 
-app.use('/',(req,res)=>{
-    res.send("<h1>Welcome to SUBY</h1>")
-})
+// app.use('/',(req,res)=>{
+//     res.send("<h1>Welcome to SUBY</h1>")
+// })
